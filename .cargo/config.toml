@@ -1,0 +1,3 @@
+#See https://github.com/rust-lang/rust/pull/58575#issuecomment-496026747
+[target.x86_64-unknown-linux-musl]
+rustflags = ["-C", "target-feature=-crt-static"]
